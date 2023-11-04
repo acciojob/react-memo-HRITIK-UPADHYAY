@@ -10,3 +10,29 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.count {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.count > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.count > div button {
+    height: 3vh;
+}
+
+.memo {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
